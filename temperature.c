@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-printf("Temperatures in Fahrenheit and Celsius");
+printf("Temperatures in Fahrenheit and Celsius\n");
 
 /* print Fahrenheit-Celsius table*/
 main()
