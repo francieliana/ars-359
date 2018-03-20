@@ -1,12 +1,12 @@
 #include <stdio.h>
 
+printf("Temperatures in Fahrenheit and Celsius");
+
 /* print Fahrenheit-Celsius table*/
 main()
-{
-  printf("Temperatures in Fahrenheit and Celsius");
-  
+{  
   int fahr;
     
   for (fahr = 0; fahr <= 300; fahr = fahr + 20)
-    printf("%3d %6.1f\n",fahr, (5.0/9.0)*(fahr-32));
+    printf("%3d %6.1f\n",fahr, (5.0/9.0)*(fahr-32)); 
 }
