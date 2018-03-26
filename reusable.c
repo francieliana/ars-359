@@ -7,6 +7,6 @@ main()
   if ((c = getchar() != EOF) = 1)
     printf("uno\n");
   else
-    print("cero");
+    printf("cero\n");
     
 }
