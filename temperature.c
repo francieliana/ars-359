@@ -11,7 +11,7 @@ main()
 
   int fahr;
     
-  for (fahr = BANANA; fahr >= APPLE; fahr = fahr - ORANGE) {
+  for (fahr = APPLE; fahr >= BANANA; fahr = fahr - ORANGE) {
     printf("%3d %6.1f\n",fahr, (5.0/9.0)*(fahr-32)); 
   }
 }
