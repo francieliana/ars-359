@@ -4,7 +4,7 @@
 main()
 {
   int c;
-  while 1
+  while (1) {
     if ((c = getchar() != EOF) == 1) {
       printf("uno\n");
     } else if (c == 0) {
@@ -12,4 +12,5 @@ main()
     } else {
       printf("what\n");
     }
+  }
 }
