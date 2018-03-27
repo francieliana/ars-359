@@ -9,6 +9,7 @@ main()
       printf("uno\n");
     } else if (c == 0) {
       printf("cero\n");
+      break;
     } else {
       printf("what\n");
     }
