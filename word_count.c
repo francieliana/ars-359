@@ -22,4 +22,5 @@ main()
     }
   }
   printf("%d %d %d\n", nl, nw, nc);
+  putchar(c);
 }
